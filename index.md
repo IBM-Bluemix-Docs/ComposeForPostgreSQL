@@ -29,6 +29,4 @@ Complete these steps to get started with Compose for PostgreSQL:
 
 2. Connect to your {{site.data.keyword.composeForPostgreSQL}} service.
 
-  To connect an app to your service, use the [credentials](./credentials.html) that are created along with the service. The sample app demonstrates how to use Node.js to connect to a {{site.data.keyword.composeForPostgreSQL}} service.
-
-  Download the [compose-postgresql-helloworld-nodejs](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs) sample app and follow the instructions in the readme file. Then, in your application details page in Bluemix, click **View APP** to view the contents of the _examples_ table.
+  You can connect to your service using the credentials that are created along with the service, or with the connection strings that are provided in the *Managing* tab of your service dashboard. See [connecting to Compose for PostgreSQL](./connecting.html) for details of how to connect.

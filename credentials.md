@@ -14,9 +14,13 @@ lastupdated: "2017-06-07"
 # Connecting to Compose for PostgreSQL using credentials
 {: #connecting-to-compose-for-postgreSQL-with-credentials}
 
-To connect an app to your service, use the [credentials](./credentials.html) that are created along with the service. The sample app demonstrates how to use Node.js to connect to a {{site.data.keyword.composeForPostgreSQL}} service.
+To connect an app to your service, use the credentials that are created along with the service. The 'Hello World' sample app demonstrates how to use Node.js to connect to a {{site.data.keyword.composeForPostgreSQL}} service using the provided credentials, and how to create a database, and read from and write to the database.
 
-Download the [compose-postgresql-helloworld-nodejs](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs) sample app and follow the instructions in the readme file. Then, in your application details page in Bluemix, click **View APP** to view the contents of the _examples_ table.
+Download the [compose-postgresql-helloworld-nodejs](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs) sample app and follow the instructions in the readme file. Then, in your application details page in Bluemix, click **View APP** to view the contents of the *examples* table.
+
+## Available credentials
+
+The Compose for PostgreSQL credentials are described in Table 1.
 
 Field Name|Description
 ----------|-----------
