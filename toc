@@ -6,7 +6,11 @@ Compose For PostgreSQL
 
 	{: .navgroup id="learn"}
 	index.md
-	credentials.md
+	connecting.md
+		credentials.md
+		connection-strings.md
+	managing.md
+		backups.md	
 
 	{: .topicgroup }
 	Related links
