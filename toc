@@ -6,6 +6,9 @@ Compose For PostgreSQL
 
 	{: .navgroup id="learn"}
 	index.md
+	{: .navgroup-end}
+
+	{: .navgroup id="how-to"}
 
 	{: .topicgroup}
 	Connecting
