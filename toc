@@ -9,7 +9,6 @@ Compose For PostgreSQL
 	{: .navgroup-end}
 
 	{: .navgroup id="how-to"}
-
 	{: .topicgroup}
 	Connecting
 		connecting.md
