@@ -14,13 +14,13 @@ lastupdated: "2017-06-07"
 # Connecting to Compose for PostgreSQL using connection strings
 {: #connecting-to-compose-for-postgreSQL-with-connection-strings}
 
-Depending on the driver used by a language, there are a number of different schemes used to express how to connect to PostgreSQL. {{site.data.keyword.ComposeForPostgreSQL}} uses a URI format, the Connection string. The connection string is formatted as so:
+Depending on the driver used by a language, there are a number of different schemes used to express how to connect to PostgreSQL. {{site.data.keyword.composeForPostgreSQL}} uses a URI format, the Connection string. The connection string is formatted as so:
 
 ```
 postgres://[username]:[password]@[host]:[port]/[database]
 ```
 
-You can find this connection string on your {{site.date.keyword.ComposeForPostgreSQL}} service Overview page.
+You can find this connection string on your {{site.date.keyword.composeForPostgreSQL}} service Overview page.
 
 ## Connecting with a language's driver
 

@@ -8,7 +8,7 @@ Compose For PostgreSQL
 	index.md
 	{: .navgroup-end}
 
-	{: .navgroup id="how-to"}
+	{: .navgroup id="howto"}
 	{: .topicgroup}
 	Connecting
 		connecting.md
