@@ -8,6 +8,16 @@ Compose For PostgreSQL
 	index.md
 	{: .navgroup-end}
 
+	{: .navgroup id="reference"}	
+	credentials.md
+
+	{: .topicgroup }
+	Related links
+		[Sample Node.js app](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs)
+		[Compose Help](https://help.compose.com)
+		[Compose Articles](https://www.compose.com/articles/)
+	{: .navgroup-end}
+
 	{: .navgroup id="howto"}
 	{: .topicgroup}
 	Connecting
@@ -19,14 +29,4 @@ Compose For PostgreSQL
 	Managing
 		managing-overview.md
 		managing-backups.md
-	{: .navgroup-end}
-
-	{: .navgroup id="reference"}	
-	credentials.md
-
-	{: .topicgroup }
-	Related links
-		[Sample Node.js app](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs)
-		[Compose Help](https://help.compose.com)
-		[Compose Articles](https://www.compose.com/articles/)
 	{: .navgroup-end}
