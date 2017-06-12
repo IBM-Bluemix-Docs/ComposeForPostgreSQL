@@ -10,7 +10,6 @@ Compose For PostgreSQL
 
 	{: .navgroup id="reference"}	
 	credentials.md
-
 	{: .navgroup-end}
 
 	{: .navgroup id="howto"}
@@ -18,7 +17,6 @@ Compose For PostgreSQL
 	Connecting to Compose for PostgreSQL
 		connecting-connection-strings.md
 		connecting-credentials.md
-
 	{: .topicgroup}
 	Managing Compose for PostgreSQL
 		managing-overview.md
