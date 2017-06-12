@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016,2017
-lastupdated: "2017-06-07"
+lastupdated: "2017-04-27"
 ---
 
 {:new_window: target="_blank"}
@@ -11,12 +11,10 @@ lastupdated: "2017-06-07"
 {:codeblock: .codeblock}
 {:pre: .pre}
 
-# Connecting to Compose for PostgreSQL using credentials
-{: #connecting-to-compose-for-postgreSQL-with-credentials}
+# Available Credentials
+{: #available-credentials}
 
-To connect an app to your service, use the credentials that are created along with the service. The 'Hello World' sample app demonstrates how to use Node.js to connect to a {{site.data.keyword.composeForPostgreSQL}} service using the provided credentials, and how to create a database, and read from and write to the database.
-
-## Available credentials
+To connect an app to your service, use the credentials that are created along with the service. The [compose-postgresql-helloworld-nodejs](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs) sample app demonstrates how to use Node.js to connect to a {{site.data.keyword.composeForPostgreSQL}} service using the credentials.
 
 Field Name|Description
 ----------|-----------

@@ -6,19 +6,11 @@ Compose For PostgreSQL
 
 	{: .navgroup id="learn"}
 	index.md
-	{: .navgroup-end}
-
-	{: .navgroup id="reference"}	
 	credentials.md
-	{: .navgroup-end}
 
-	{: .navgroup id="howto"}
-	{: .topicgroup}
-	Connecting to Compose for PostgreSQL
-		connecting-connection-strings.md
-		connecting-credentials.md
-	{: .topicgroup}
-	Managing Compose for PostgreSQL
-		managing-overview.md
-		managing-backups.md
+	{: .topicgroup }
+	Related links
+		[Sample Node.js app](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs)
+		[Compose Help](https://help.compose.com)
+		[Compose Articles](https://www.compose.com/articles/)
 	{: .navgroup-end}
