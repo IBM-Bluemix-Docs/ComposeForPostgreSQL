@@ -22,6 +22,10 @@ Daily backups of your database are automatically scheduled. To view your existin
 
 ![Backups](./images/postgres-backups-show.png "A list of backups in the service dashboard")
 
+Click on the corresponding row to expand the options for any available backup.
+
+![Backup Options](./images/postgres-backups-options.png "Options for a backup.") 
+
 ## Creating a backup on demand
 
 As well as scheduled backups you can create a backup manually. To create a manual backup, navigate to the *Manage* page of your service dashboard and click *Backup now*.
@@ -44,3 +48,7 @@ To restore to a local database:
 2. The backup includes a README file: `data/backup/*timestamp*/snapshot/README`. Open the README file in a text editor.
 3. Download and install PostgreSQL locally. The README file indicates the version of PostgreSQL that the backup should be run with.
 4. Follow the instructions in the README file to run a local copy of your database. Start your local PostgreSQL inside the snapshot directory with the command `postgres -D conf`. You can then connect to the db by running: `psql postgres -U focker`.
+
+## Restoring a backup
+
+To restore a backup to a new service instance, follow the steps to view existing backups, then click in the corresponding row to expand the options for the backup you want to download. Click on the **Restore** button. A message is displayed to let you know that a resotre has been initiated. The new service instance will automatically be named "postgres-restore-[timestamp]", and appears on your dashboard when provisioning starts.

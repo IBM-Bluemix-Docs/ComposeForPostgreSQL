@@ -15,7 +15,9 @@ Compose For PostgreSQL
 
 
 	{: .navgroup id="howto"}
-	dashboard-scaling-resources.md	
+	dashboard-scaling-resources.md
+	dashboard-whitelists.md
+	dashboard-update-service-password.md
 
 	{: .topicgroup}
 	Connecting to Compose for PostgreSQL
