@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017
+  years: 2017,2018
 lastupdated: "2017-06-07"
 ---
 
@@ -18,13 +18,13 @@ Es gibt zwei Möglichkeiten, eine externe Anwendung mit {{site.data.keyword.comp
 
 - Eine **Verbindungszeichenfolge** kann von bestimmten Clientbibliotheken verwendet werden und enthält alle Informationen, die andere Bibliotheken zum Herstellen einer Verbindung benötigen.
 
-- Die **Befehlszeile** ist ein vorformatierter Befehl, der `psql` mit den korrekten Parametern aufruft. 
+- Die **Befehlszeile** ist ein vorformatierter Befehl, der `psql` mit den korrekten Parametern aufruft.
 
 Beides finden Sie auf der Seite *Übersicht* Ihres {{site.data.keyword.composeForPostgreSQL}}-Service.
 
 ## Verbindung mit Sprachentreiber herstellen
 
-Postgres besitzt eine Vielzahl von Sprachentreibern. In der Tabelle werden einige der bekanntesten aufgeführt.
+Postgres besitzt eine Vielzahl von Sprachentreibern.  In der Tabelle werden einige der bekanntesten aufgeführt.
 
 Sprache|Beispiele
 ----------|-----------
@@ -61,7 +61,7 @@ pgAdmin3 ist ein beliebter GUI-Client für PostgreSQL. Führen Sie die folgenden
 
 3. Geben Sie in den Feldern der Anzeige die Angaben aus der Übersichtsseite Ihres {{site.data.keyword.composeForPostgreSQL}}-Service ein:
 
-  * **Name**: Ein beliebiger Text zur Beschreibung Ihrer Postgres-Bereitstellung. Zur Vereinfachung sollte dieser Name mit dem in Compose verwendeten identisch sein.
+  * **Name**: Ein beliebiger Text zur Beschreibung Ihrer Postgres-Bereitstellung.  Zur Vereinfachung sollte dieser Name mit dem in Compose verwendeten identisch sein.
   * **Host**: Der Hostabschnitt in Ihrer Verbindungszeichenfolge.
   * **Port**: Der Portabschnitt in Ihrer Verbindungszeichenfolge.
   * **Benutzername**: Der Benutzername des Administrators oder eines Benutzers, den Sie erstellt haben.

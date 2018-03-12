@@ -1,7 +1,7 @@
 ---
 
 Copyright:
-  Years: 2017
+  years: 2017,2018
 lastupdated: "2017-10-23"
 ---
 
@@ -34,11 +34,9 @@ Si votre service a besoin de plus d'espace de stokage, ou si vous voulez limiter
     ![Page Scale Resources](./images/postgres-scale-show.png "Page Scale Resources")
 
 3. Déplacez le curseur sur la règle pour augmenter ou diminuer la quantité de stockage allouée au service {{site.data.keyword.composeForPostgreSQL}}. Déplacez-le vers la gauche pour diminuer la quantité de stockage ou vers la droite pour l'augmenter.
-4. Cliquez sur **Scale Deployment** pour lancer le processus de mise à l'échelle et revenir dans la vue d'ensemble du tableau de bord. Un message 'Scaling initiated' s'affiche en haut de la page pour vous indiquer que la remise à l'échelle est en cours. 
+4. Cliquez sur **Scale Deployment** pour lancer le processus de mise à l'échelle et revenir dans la vue d'ensemble du tableau de bord. 
 
-    ![Message de remise à l'échelle](./images/jobs-scaling.png "Panneau Deployment Details affichant un travail en cours : mise à l'échelle de la base de données de 2 unités")
-
-    Une fois la mise à l'échelle terminée, le panneau _Deployment Details_ est actualisé pour afficher l'utilisation actuelle et la nouvelle valeur de stockage disponible.
+Une fois la mise à l'échelle terminée, le panneau _Deployment Details_ est actualisé pour afficher l'utilisation actuelle et la nouvelle valeur de stockage disponible.
 
 
 ## Mise à jour du mot de passe du service
@@ -49,7 +47,9 @@ Un nouveau mot de passe aléatoire est généré ou vous pouvez entrer votre pro
   
 ![Mise à jour du mot de passe PostgreSQL](./images/postgres-update-password.png "Générateur de mot de passe automatique")
 
-Les modifications prennent effet lorsque vous cliquez sur le bouton **Mettre à jour le mot de passe**. Cette opération modifie les données d'identification que vous utilisez ainsi que vos services pour vous connecter et qui font partie de la chaîne de connexion de votre service. Le panneau _Deployment Details_ affiche la progression de l'exécution du travail.
+Cliquez sur **Mise à jour du mot de passe**. Un message vous demande de confirmer la modification. Cliquez sur **Mise à jour du mot de passe** dans la boîte de dialogue pour confirmer le nouveau mot de passe ou sur Annuler pour annuler la modification. Le panneau _Deployment Details_ affiche la progression de l'exécution du travail.
+
+**Remarque :** Cette opération modifie les données d'identification que vous utilisez ainsi que vos services pour vous connecter et invalide la chaîne de connexion de votre service. Elle peut également entraîner un temps d'indisponibilité.
 
 ### Mise à jour des applications connectées
 

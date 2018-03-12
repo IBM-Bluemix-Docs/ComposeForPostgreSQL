@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017
+  years: 2017,2018
 lastupdated: "2017-06-07"
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2017-06-07"
 
 ## 言語のドライバーによる接続
 
-Postgres には、さまざまな言語ドライバーがあります。一般的なドライバーを以下の表にまとめます。
+Postgres には、さまざまな言語ドライバーがあります。  一般的なドライバーを以下の表にまとめます。
 
 言語|例
 ----------|-----------
@@ -38,7 +38,7 @@ Node|[node-postgres](https://github.com/brianc/node-postgres/wiki/Example)
 
 ## コマンド・ラインによる接続
 
-Postgres に接続するためのコマンド・ライン・ツールは **psql** です。この機能を使用するには、ローカル・システムに PostgreSQL クライアント・ツールをインストールしておく必要があります。そのツールをインストールするには、postgresql.org でダウンロードした PostgreSQL パッケージ全体をオペレーティング・システム・パッケージからインストールします。brew をインストールした MacOS X の場合は、`brew install postgresql` を実行します。   
+Postgres に接続するためのコマンド・ライン・ツールは **psql** です。 この機能を使用するには、ローカル・システムに PostgreSQL クライアント・ツールをインストールしておく必要があります。 そのツールをインストールするには、postgresql.org でダウンロードした PostgreSQL パッケージ全体をオペレーティング・システム・パッケージからインストールします。brew をインストールした MacOS X の場合は、`brew install postgresql` を実行します。   
 
 psql の詳細については、PostgreSQL の資料 ([リファレンス](https://www.postgresql.org/docs/current/static/app-psql.html)) と Postgres ガイドにあるシンプルな[概要](http://postgresguide.com/utilities/psql.html)を参照してください。
 
@@ -52,7 +52,7 @@ psql "sslmode=require host=bluemix-sandbox-dal-9-portal.6.dblayer.com port=24761
 
 ## pgAdmin3 による接続
 
-pgAdmin3 は、PostgreSQL に対応した一般的な GUI クライアントです。pgAdmin3 で接続する場合は、以下の手順を実行します。
+pgAdmin3 は、PostgreSQL に対応した一般的な GUI クライアントです。 pgAdmin3 で接続する場合は、以下の手順を実行します。
 
 1. ご使用のオペレーティング・システムに対応したバージョンの pgAdmin3 を [https://www.pgadmin.org/](https://www.pgadmin.org/) からダウンロードしてインストールします。
 2. pgAdmin3 を実行し、メニュー・バーから「Add Server」を選択し、新しい接続を作成して、*「New Server Registration」*パネルを開きます。
@@ -61,7 +61,7 @@ pgAdmin3 は、PostgreSQL に対応した一般的な GUI クライアントで�
 
 3. {{site.data.keyword.composeForPostgreSQL}} サービスの「概要」ページの情報に基づいて、そのパネルの各フィールドに値を入力します。
 
-  * **Name**: ご使用の Postgres デプロイメントに適した名前を設定します。わかりやすくするために、Compose で使用している名前をそのまま設定してください。
+  * **Name**: ご使用の Postgres デプロイメントに適した名前を設定します。  わかりやすくするために、Compose で使用している名前をそのまま設定してください。
   * **Host**: 接続ストリングのホストの部分の値を設定します。
   * **Port**: 接続ストリングのポートの部分の値を設定します。
   * **Username**: ユーザー名として、admin か自分で作成したユーザー名を設定します。

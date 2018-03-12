@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017
+  years: 2017,2018
 lastupdated: "2017-06-07"
 ---
 
@@ -24,7 +24,7 @@ Você localizará ambos na página *Visão geral* de seu serviço {{site.data.ke
 
 ## Conectando-se ao driver de uma linguagem
 
-O Postgres tem uma vasta matriz de drivers de linguagem. A tabela cobre alguns dos mais comuns.
+O Postgres tem uma vasta matriz de drivers de linguagem.  A tabela cobre alguns dos mais comuns.
 
 Idioma|Exemplos
 ----------|-----------
@@ -62,7 +62,7 @@ pgAdmin3 é um cliente de GUI popular para PostgreSQL. Use as etapas a seguir pa
 
 3. Conclua os campos no painel com as informações na página Visão geral de seu serviço {{site.data.keyword.composeForPostgreSQL}}:
 
-  * **Nome**: pode ser qualquer coisa que descreva sua implementação do Postgres. Para simplificar, torne isso o mesmo nome que aquele usado no Compose.
+  * **Nome**: pode ser qualquer coisa que descreva sua implementação do Postgres.  Para simplificar, torne isso o mesmo nome que aquele usado no Compose.
   * **Host**: isso será por meio da parte do host de sua sequência de conexões.
   * **Porta**: isso será da parte da porta de sua sequência de conexões.
   * **Nome do usuário**: isso será o nome do usuário para um administrador ou um usuário que você criou.

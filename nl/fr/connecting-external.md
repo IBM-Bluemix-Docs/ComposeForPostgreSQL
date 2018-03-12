@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017
+  years: 2017,2018
 lastupdated: "2017-06-07"
 ---
 
@@ -24,7 +24,7 @@ Les deux sont disponibles sur la page *Vue d'ensemble* du service {{site.data.ke
 
 ## Connexion avec un pilote de langage
 
-Postgres dispose d'un vaste éventail de pilotes de langage. Le tableau en répertorie quelques uns des plus courants.
+Postgres dispose d'un vaste éventail de pilotes de langage.  Le tableau en répertorie quelques uns des plus courants.
 
 Langage|Exemples
 ----------|-----------
@@ -61,7 +61,7 @@ pgAdmin3 est un client d'interface graphique répandu pour PostgreSQL. Pour vous
 
 3. Renseignez les zones du panneau avec les informations de la page Vue d'ensemble de votre service {{site.data.keyword.composeForPostgreSQL}} :
 
-  * **Name** : tout nom décrivant votre déploiement Postgres. Pour simplifier, choisissez le même nom que celui utilisé dans Compose.
+  * **Name** : tout nom décrivant votre déploiement Postgres.  Pour simplifier, choisissez le même nom que celui utilisé dans Compose.
   * **Host** : issu de la partie host de votre chaîne de connexion.
   * **Port** : issu de la partie port de votre chaîne de connexion.
   * **Username** : nom de l'administrateur ou d'un utilisateur que vous avez créé.
