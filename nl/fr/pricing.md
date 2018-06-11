@@ -20,7 +20,7 @@ Un service {{site.data.keyword.composeForPostgreSQL_full}} démarre avec un clus
 La configuration de base inclut également trois capsules etcd arbiter pour la gestion de la réplication, et deux capsules HAProxy pour la gestion des connexions et de la reprise en ligne. Les capsules HAProxy disposent chacune de 64 Mo de mémoire.
 
 ### Coût
-Le prix de la configuration du service de base est défini. Consultez les vignettes du catalogue sur {{site.data.keyword.cloud_notm}} pour connaître la tarification de base dans votre devise locale. Par exemple, le prix de base en dollars US est de 12 $/mois. 
+Le prix de la configuration du service de base est défini. Consultez les vignettes du catalogue sur {{site.data.keyword.cloud_notm}} pour connaître la tarification de base dans votre devise locale. Par exemple, le prix de base en dollars US est de 12 $/mois.
 
 ## Options d'extension
 Si vous avez besoin de davantage de mémoire ou de stockage pour votre service, vous pouvez augmenter les ressources allouées selon un rapport de 10 pour 1 en stockage sur disque et unité de mémoire. L'augmentation du disque alloué au déploiement augmente également la quantité de mémoire RAM allouée. Une unité {{site.data.keyword.composeForPostgreSQL}} se compose de 1 Go de stockage et de 102 Mo de mémoire, de sorte que chaque unité et le prix unitaire _incluent_ le coût d'accroissement des ressources dans les deux noeuds de données.

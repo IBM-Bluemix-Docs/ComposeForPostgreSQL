@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016,2018
-lastupdated: "2017-10-16"
+lastupdated: "2018-03-27"
 ---
 
 {:new_window: target="_blank"}
@@ -33,8 +33,12 @@ lastupdated: "2017-10-16"
 - バックアップを管理する
 - サービスに割り振るリソースを増やす
 - サービス・パスワードを変更する
-- ホワイトリストを使用してデータベースへのアクセスを制限する 
+- ホワイトリストを使用してデータベースへのアクセスを制限する。 
+
 詳しくは、[設定](./dashboard-settings.html)を参照してください。
+
+{{site.data.keyword.composeForPostgreSQL} は、Cloud Foundry の役割を利用して、サービスへのアクセスを管理します。開発者役割を持つユーザーのみが、サービス・ダッシュボードを表示または使用できます。Cloud Foundry の役割について詳しくは、『[Cloud Foundry アクセス権限](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess)』および 『[Cloud Foundry のアクセス権限の管理](https://console.bluemix.net/docs/iam/mngcf.html#mngcf)』のページを参照してください。
+{: .tip}
 
 ## {{site.data.keyword.composeForPostgreSQL}} への接続
 {: #connecting-to-compose-for-postgreSQL}
@@ -45,6 +49,6 @@ lastupdated: "2017-10-16"
 
 {{site.data.keyword.cloud_notm}} アプリケーションをサービスに接続するには、サービスと一緒に作成された資格情報を使用します。 {{site.data.keyword.cloud_notm}} アプリケーションを {{site.data.keyword.composeForPostgreSQL}} サービスに接続する方法については、[{{site.data.keyword.cloud_notm}} アプリケーションの接続](./connecting-bluemix-app.html)を参照してください。
 
-## {{site.data.keyword.cloud_notm}}
+## {{site.data.keyword.cloud_notm}} 外からの {{site.data.keyword.composeForPostgreSQL}} への接続
 
- 外からの {{site.data.keyword.composeForPostgreSQL}} への接続{{site.data.keyword.cloud_notm}} の外部から {{site.data.keyword.composeForPostgreSQL}} に接続する場合は、用意されている接続ストリングやコマンド・ラインを使用できます。 接続方法については、[外部アプリケーションの接続](./connecting-external.html)を参照してください。
+{{site.data.keyword.cloud_notm}} の外部から {{site.data.keyword.composeForPostgreSQL}} に接続する場合は、用意されている接続ストリングやコマンド・ラインを使用できます。 接続方法については、[外部アプリケーションの接続](./connecting-external.html)を参照してください。
