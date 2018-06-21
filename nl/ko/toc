@@ -1,0 +1,24 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="compose-for-postgresql" audience="service" href="/docs/services/ComposeForPostgreSQL/index.html"}
+Compose For PostgreSQL
+
+	{: .navgroup id="learn"}
+	index.md
+	getting_started.md
+	pricing.md
+
+	{: .topicgroup}
+	서비스 대시보드
+		dashboard-overview.md
+		dashboard-backups.md
+		dashboard-settings.md
+	{: .navgroup-end}
+
+	{: .navgroup id="howto"}
+	{: .topicgroup}
+	Compose for PostgreSQL에 연결
+		connecting-bluemix-app.md
+		connecting-external.md
+	{: .navgroup-end}
