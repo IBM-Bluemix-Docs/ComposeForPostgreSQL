@@ -37,7 +37,7 @@ Sie können Ihren Service über das Service-Dashboard verwalten. Hier finden Sie
 
 Weitere Informationen finden Sie im Abschnitt [Einstellungen](./dashboard-settings.html).
 
-{{site.data.keyword.composeForPostgreSQL} nutzt Cloud Foundry-Rollen, um den Zugriff auf den Service zu verwalten. Nur Benutzer mit der Entwicklerrolle können das Service-Dashboard anzeigen oder verwenden. Weitere Informationen zu Cloud Foundry-Rollen finden Sie auf den Seiten [Cloud Foundry-Zugriff](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess) und [Cloud Foundry-Zugriff](https://console.bluemix.net/docs/iam/mngcf.html#mngcf) verwalten.
+{{site.data.keyword.composeForPostgreSQL}} nutzt Cloud Foundry-Rollen, um den Zugriff auf den Service zu verwalten. Nur Benutzer mit der Entwicklerrolle können das Service-Dashboard anzeigen oder verwenden. Weitere Informationen zu Cloud Foundry-Rollen finden Sie auf den Seiten [Cloud Foundry-Zugriff](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess) und [Cloud Foundry-Zugriff](https://console.bluemix.net/docs/iam/mngcf.html#mngcf) verwalten.
 {: .tip}
 
 ## Verbindung zu {{site.data.keyword.composeForPostgreSQL}} herstellen

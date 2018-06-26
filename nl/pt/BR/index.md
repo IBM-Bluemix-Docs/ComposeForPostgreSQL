@@ -45,7 +45,7 @@ Quando você provisiona sua instância do {{site.data.keyword.composeForPostgreS
 
 Para obter mais informações, veja [Configurações](./dashboard-settings.html).
 
-{{site.data.keyword.composeForPostgreSQL} depende de funções do Cloud Foundry para gerenciar o acesso ao serviço. Somente usuários com a função de Desenvolvedor podem ver ou usar o painel de serviço. Para obter mais informações sobre as funções do Cloud Foundry, veja as páginas [Acesso ao Cloud Foundry](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess) e [Gerenciando ao acesso ao Cloud Foundry](https://console.bluemix.net/docs/iam/mngcf.html#mngcf).
+{{site.data.keyword.composeForPostgreSQL}} depende de funções do Cloud Foundry para gerenciar o acesso ao serviço. Somente usuários com a função de Desenvolvedor podem ver ou usar o painel de serviço. Para obter mais informações sobre as funções do Cloud Foundry, veja as páginas [Acesso ao Cloud Foundry](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess) e [Gerenciando ao acesso ao Cloud Foundry](https://console.bluemix.net/docs/iam/mngcf.html#mngcf).
 {: .tip}
 
 ## Conectando-se ao {{site.data.keyword.composeForPostgreSQL}}

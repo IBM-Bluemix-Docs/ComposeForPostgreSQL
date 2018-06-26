@@ -37,7 +37,7 @@ lastupdated: "2018-03-27"
 
 如需相關資訊，請參閱[設定](./dashboard-settings.html)。
 
-{{site.data.keyword.composeForPostgreSQL} 根據 Cloud Foundry 角色來管理對服務的存取。只有具有「開發人員」角色的使用者才能看到或使用服務儀表板。如需 Cloud Foundry 角色的相關資訊，請參閱 [Cloud Foundry 存取](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess)及[管理 Cloud Foundry 存取](https://console.bluemix.net/docs/iam/mngcf.html#mngcf)頁面。
+{{site.data.keyword.composeForPostgreSQL}} 根據 Cloud Foundry 角色來管理對服務的存取。只有具有「開發人員」角色的使用者才能看到或使用服務儀表板。如需 Cloud Foundry 角色的相關資訊，請參閱 [Cloud Foundry 存取](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess)及[管理 Cloud Foundry 存取](https://console.bluemix.net/docs/iam/mngcf.html#mngcf)頁面。
 {: .tip}
 
 ## 連接至 {{site.data.keyword.composeForPostgreSQL}}

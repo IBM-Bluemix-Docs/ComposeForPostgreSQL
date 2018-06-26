@@ -37,7 +37,7 @@ Puede gestionar el servicio desde el panel de control del servicio. Aquí encont
 
 Para obtener más información, consulte [Valores](./dashboard-settings.html).
 
-{{site.data.keyword.composeForPostgreSQL} utiliza roles de Cloud Foundry para gestionar el acceso al servicio. Solo los usuarios con el rol de desarrollador pueden ver o utilizar el panel de control del servicio. Para obtener más información sobre los roles de Cloud Foundry, consulte las páginas [Acceso de Cloud Foundry](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess) y [Gestión del acceso de Cloud Foundry](https://console.bluemix.net/docs/iam/mngcf.html#mngcf).
+{{site.data.keyword.composeForPostgreSQL}} utiliza roles de Cloud Foundry para gestionar el acceso al servicio. Solo los usuarios con el rol de desarrollador pueden ver o utilizar el panel de control del servicio. Para obtener más información sobre los roles de Cloud Foundry, consulte las páginas [Acceso de Cloud Foundry](https://console.bluemix.net/docs/iam/cfaccess.html#cfaccess) y [Gestión del acceso de Cloud Foundry](https://console.bluemix.net/docs/iam/mngcf.html#mngcf).
 {: .tip}
 
 ## Conexión a {{site.data.keyword.composeForPostgreSQL}}
