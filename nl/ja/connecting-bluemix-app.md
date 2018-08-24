@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016,2018
-lastupdated: "2017-06-07"
+lastupdated: "2018-05-07"
 ---
 
 {:new_window: target="_blank"}
@@ -13,7 +13,7 @@ lastupdated: "2017-06-07"
 
 # {{site.data.keyword.cloud_notm}} アプリケーションの接続
 
-{{site.data.keyword.cloud}} アプリケーションをサービスに接続するには、サービスがプロビジョンされた時に作成されたサービス資格情報を使用します。 サンプル・アプリケーションでは、用意されている資格情報に基づいて Node.js によって {{site.data.keyword.composeForPostgreSQL_full}} サービスに接続する方法と、データベースを作成したりデータベースの読み書きを実行したりする方法を示しています。
+{{site.data.keyword.cloud}} アプリケーションをサービスに接続するには、サービスがプロビジョンされた時に作成されたサービス資格情報を使用します。 サンプル・アプリケーションは、用意されている資格情報を使用して Node.js で {{site.data.keyword.composeForPostgreSQL_full}} サービスに接続する方法と、データベースを作成し、データベースに対して読み書きを行う方法を示しています。
 
 ## 「Hello World」サンプル・アプリケーションを使用した接続
 
@@ -31,4 +31,8 @@ lastupdated: "2017-06-07"
 `deployment_id`|Compose 内で作成された、サービスの内部 ID。
 `db_type`|サービスによって提供されるデータベースのタイプ。この場合は、`postgresql`。
 `name`|データベース・デプロイメント名。
+`uri_direct_1`|サービスに接続するときに使用可能な 2 番目の URI。 形式は `uri` と同様です。
+`uri_cli_1`|データベース・インスタンスに接続する 2 番目の `psql` シェル・コマンド・ライン。
 {: caption="表 1. Compose for PostgreSQL の資格情報" caption-side="top"}
+
+**注:** 2 つの `haproxy` ポータルは、PostgreSQL サービスへのアクセスを提供します。 接続するために `uri` と `uri_direct_1` の両方を使用できます。 アプリケーションで、接続障害の対応管理のために `uri` と `uri_direct_1` を切り替えます。

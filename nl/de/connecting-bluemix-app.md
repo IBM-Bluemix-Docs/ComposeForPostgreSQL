@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016,2018
-lastupdated: "2017-06-07"
+lastupdated: "2018-05-07"
 ---
 
 {:new_window: target="_blank"}
@@ -31,4 +31,8 @@ Feldname|Beschreibung
 `deployment_id`|Eine interne ID für den Service entsprechend der Erstellung in Compose.
 `db_type`|Der Datenbanktyp, der vom Service angeboten wird, in diesem Fall `postgresql`.
 `name`|Der Name der Datenbankimplementierung.
+`uri_direct_1`|Ein sekundärer URI, der bei der Verbindungsherstellung zum Service verwendet werden kann. Format wie für `uri`.
+`uri_cli_1`|Eine sekundäre `psql`-Shellbefehlszeile, die eine Verbindung zur Datenbankinstanz herstellt.
 {: caption="Tabelle 1. Compose for PostgreSQL - Berechtigungsnachweise" caption-side="top"}
+
+**Hinweis:** Zwei `haproxy`-Portale bieten Zugriff auf den PostgreSQL-Service. Sowohl `uri` als auch `uri_direct_1` können zum Herstellen der Verbindung verwendet werden. In Ihrer Anwendung wechseln Sie zwischen `uri` und `uri_direct_1`, um die Reaktionen auf Verbindungsfehler zu verwalten.

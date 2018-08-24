@@ -15,20 +15,22 @@ lastupdated: "2018-01-03"
 {: #pricing}
 
 ## Configuración básica
+
 Un servicio de {{site.data.keyword.composeForPostgreSQL_full}} es un clúster con dos nodos de datos, y cada uno de los cuales contiene 1 GB de almacenamiento y 102 MB de memoria, lo que es igual a 1 unidad de recursos. El servicio _incluye_ la réplica y la alta disponibilidad, de modo que cada unidad y el precio por unidad _incluye_ el coste de los recursos en los dos nodos.
 
 La configuración básica también incluye tres cápsulas árbitro etcd para gestionar la réplica, y dos cápsulas HAProxy para gestionar conexiones y la migración tras error. Las cápsulas HAProxy tiene cada una 64 MB de memoria.
 
-### Coste
 La configuración de servicio base tiene un precio establecido. Consulte los mosaicos del catálogo en {{site.data.keyword.cloud_notm}} para ver los precios básicos en su moneda local. Por ejemplo, el precio base en dólares de EE.UU. es de 12 dólares USD/mes.
 
-## Opciones de expansión
+## Incremento de recursos
+
 Si necesita más almacenamiento o memoria para el servicio, puede aumentar los recursos asignados en una proporción 10:1 de almacenamiento de disco para la unidad de memoria. Aumentar el disco asignado al despliegue también aumentará la RAM asignada. Una unidad de {{site.data.keyword.composeForPostgreSQL}} consta de 1 GB de almacenamiento y de 102 MB de memoria, y cada unidad y el precio por unidad _incluye_ el coste para aumentar los recursos en ambos nodos de datos.
 
-### Coste
+## Cálculo del coste del despliegue
+{: #tiered-pricing}
+
 Cada unidad adicional (1 GB de almacenamiento/102 MB de memoria) tiene un precio por unidad, que aparece en la moneda local en el mosaico del catálogo de {{site.data.keyword.cloud_notm}} para el servicio. En dólares de EE.UU., cada unidad adicional cuesta 12 dólares USD. A medida que aumenta el tamaño _total_ de todos los servicios de {{site.data.keyword.composeForPostgreSQL}}, el precio por unidad disminuye, tal como se muestra en la tabla de precios por niveles, más abajo.
 
-### Fijación de precios por grado
 Número de unidades|Precio por unidad
 ----------|-----------
 De 1 a 9 unidades|precio básico por unidad -- 12,00 dólares USD/unidad

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016,2018
-lastupdated: "2017-06-07"
+lastupdated: "2018-05-07"
 ---
 
 {:new_window: target="_blank"}
@@ -31,4 +31,8 @@ lastupdated: "2017-06-07"
 `deployment_id`|Compose에서 작성된 서비스의 내부 ID입니다.
 `db_type`|서비스에서 제공하는 데이터베이스의 유형입니다. 이 경우 `postgresql`입니다.
 `name`|데이터베이스 배치 이름입니다.
+`uri_direct_1`|서비스에 연결하는 데 사용할 수 있는 2차 URI입니다. `uri`에 따라 형식화됩니다.
+`uri_cli_1`|데이터베이스 인스턴스에 연결하는 2차 `psql` 쉘 명령행입니다.
 {: caption="표 1. Compose for PostgreSQL 신임 정보" caption-side="top"}
+
+**참고:** 두 개의 `haproxy` 포털에서 PostgreSQL 서비스에 대한 액세스를 제공합니다. `uri`와 `uri_direct_1` 모두 연결하는 데 사용할 수 있습니다. 애플리케이션에서 `uri`와 `uri_direct_1`을 서로 전환하여 연결 실패에 대한 응답을 관리하십시오.

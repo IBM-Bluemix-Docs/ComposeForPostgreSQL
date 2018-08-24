@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016,2018
-lastupdated: "2017-06-07"
+lastupdated: "2018-05-07"
 ---
 
 {:new_window: target="_blank"}
@@ -13,7 +13,7 @@ lastupdated: "2017-06-07"
 
 # Conectando um aplicativo {{site.data.keyword.cloud_notm}}
 
-Para conectar um aplicativo {{site.data.keyword.cloud}} a seu serviço, use as credenciais de serviço que são criadas quando o serviço é provisionado. O aplicativo de amostra demostra como usar o Node.js para se conectar a um serviço {{site.data.keyword.composeForPostgreSQL_full}} usando as credenciais fornecidas e como criar um banco de dados e ler e gravar no banco de dados.
+Para conectar um aplicativo {{site.data.keyword.cloud}} a seu serviço, use as credenciais de serviço que são criadas quando o serviço é provisionado. O app de amostra demonstra como usar Node.js para se conectar a um serviço {{site.data.keyword.composeForPostgreSQL_full}} usando as credenciais fornecidas e como criar um banco de dados e ler e gravar no banco de dados.
 
 ## Conectando usando o aplicativo de amostra 'Hello World'
 
@@ -31,4 +31,8 @@ Campo de nome|Descrição
 `deployment_id`|Um identificador interno para o serviço conforme criado no Compose.
 `db_type`|O tipo de banco de dados que é oferecido pelo serviço; nesse caso, `postgresql`.
 `name`|O nome da implementação do banco de dados.
+`uri_direct_1`|Um URI secundário que pode ser usado ao se conectar ao serviço. Formatado como para `uri`.
+`uri_cli_1`|Uma linha de comandos shell `psql` secundária que se conecta à instância de banco de dados.
 {: caption="Tabela 1. Credenciais do Compose for PostgreSQL" caption-side="top"}
+
+**Nota:** dois portais `haproxy` fornecem acesso ao serviço PostgreSQL. Tanto `uri` quanto `uri_direct_1` podem ser usados para a conexão. Em seus aplicativos, alterne entre `uri` e `uri_direct_1` para gerenciar respostas às falhas de conexão.

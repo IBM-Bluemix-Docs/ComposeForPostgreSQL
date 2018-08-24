@@ -25,7 +25,7 @@ Puede crear un servicio de {{site.data.keyword.composeForPostgreSQL}} desde la [
 
 Elija un nombre de servicio, y una región, organización y espacio en los que suministrar el servicio. Puede utilizar el campo **Seleccionar una versión de base de datos** para elegir entre las versiones de bases de datos disponibles.
 
-Cuando suministre la instancia de {{site.data.keyword.composeForPostgreSQL}}, puede elegir los planes *Estándar* o *Empresa*. Con el plan *Empresa*, puede suministrar la instancia de {{site.data.keyword.composeForPostgreSQL}} en un clúster disponible de {{site.data.keyword.composeEnterprise}}. {{site.data.keyword.composeEnterprise}} proporciona la seguridad y nivel de aislamiento necesarios para el cumplimiento de las reglas empresariales y utiliza redes dedicadas para garantizar el rendimiento de las bases de datos desplegadas. Consulte la [documentación de Compose Enterprise](../ComposeEnterprise/index.html) para ver más detalles.
+Cuando suministre la instancia de {{site.data.keyword.composeForPostgreSQL}}, puede elegir los planes *Estándar* o *Empresa*. Con el plan *Empresa*, puede suministrar la instancia de {{site.data.keyword.composeForPostgreSQL}} en un clúster disponible de {{site.data.keyword.composeEnterprise}}. {{site.data.keyword.composeEnterprise}} proporciona la seguridad y nivel de aislamiento necesarios para el cumplimiento de las reglas empresariales y utiliza redes dedicadas para garantizar el rendimiento de las bases de datos desplegadas. Consulte la [documentación de {{site.data.keyword.composeEnterprise}}](/docs/services/ComposeEnterprise/index.html) para obtener más detalles.
 
 ## Gestión de {{site.data.keyword.composeForPostgreSQL}}
 

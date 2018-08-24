@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016,2018
-lastupdated: "2017-06-07"
+lastupdated: "2018-05-07"
 ---
 
 {:new_window: target="_blank"}
@@ -31,4 +31,8 @@ Nom de zone|Description
 `deployment_id`|Identificateur interne du service, créé dans Compose.
 `db_type`|Type de base de données fourni par le service, en l'occurrence, `postgresql`.
 `name`|Nom du déploiement de base de données.
+`uri_direct_1`|Second identificateur URI qui peut être utilisé lors de la connexion au service. Utilise le même format qu'`uri`.
+`uri_cli_1`|Seconde ligne de commande shell `psql` qui permet d'établir la connexion à l'instance de base de données.
 {: caption="Tableau 1. Données d'identification Compose for PostgreSQL" caption-side="top"}
+
+**Remarque :** deux portails `haproxy` permettent d'accéder au service PostgreSQL. Les zones `uri` et `uri_direct_1` peuvent toutes deux être utilisées pour établir la connexion. Dans vos applications, utilisez `uri` ou `uri_direct_1` pour gérer les réponses aux pannes de connexion.
