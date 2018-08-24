@@ -13,7 +13,7 @@ lastupdated: "2018-05-07"
 
 # Service Overview
 
-The _Overview_ page shows you information about your {{site.data.keyword.cloud}} Compose database. The overview includes essential identifying information and current resource usage. You'll also find a section for connection strings that you can use with tools or make use of tools to connect to your database.
+The _Overview_ page shows you information about your {{site.data.keyword.cloud}} Compose database. The overview includes essential identifying information and current resource usage. You'll also find a section for connection strings that you can use to connect to your database.
 
 ## Deployment Details
 
@@ -31,7 +31,7 @@ An internal identifier for the service.
 
 ### Usage
 
-The size of your database and the amount of storage provided by your service plan.
+The size of your database and the amount of storage that is provided by your service plan.
 
 ## Current Jobs
 
@@ -43,11 +43,11 @@ You'll find each Connection String for your service in a different tab in the _C
 
 ### HTTPS
 
-A URI-formatted connection string that can be used by some client libraries and contains all the information needed for other libraries to connect. You can find out how to use the Connection String to connect in [Connecting an external application](./connecting-external.html).
+A URI-formatted connection string that can be used by some client libraries and contains all the information that is needed for other libraries to connect. You can find out how to use the Connection String to connect in [Connecting an external application](./connecting-external.html).
 
 ### Command Line
 
-The **Command Line** is a preformatted command which will invoke `psql` with the correct parameters. To use it, you'll need to have the PostgreSQL client tools installed on the local system. You can find out more about how to do this in [Connecting an external application](./connecting-external.html).
+The **Command Line** is a preformatted command that invokes `psql` with the correct parameters. To use it, you'll need to have the PostgreSQL client tools installed on the local system. You can find out more about how to do this in [Connecting an external application](./connecting-external.html).
 
 ### SSL Certificate
 
@@ -60,7 +60,7 @@ You can manage your {{site.data.keyword.composeForPostgreSQL}} service through t
 
 ### Foundation Endpoint
 
-The foundation endpoint is composed of the region the service resides in and the service instance id. It will be at the start of every endpoint.
+The foundation endpoint is composed of the region the service resides in and the service instance ID. It is at the start of every endpoint.
 
 ### Deployment ID
 

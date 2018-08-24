@@ -13,11 +13,11 @@ lastupdated: "2018-05-07"
 
 # Connecting an {{site.data.keyword.cloud_notm}} application
 
-To connect an {{site.data.keyword.cloud}} application to your service, use the service credentials that are created when the service is provisioned. The sample app demonstrates how to use Node.js to connect to an {{site.data.keyword.composeForPostgreSQL_full}} service using the provided credentials, and how to create a database and read from and write to the database.
+To connect an {{site.data.keyword.cloud}} application to your service, use the service credentials that are created when the service is provisioned.
 
 ## Connecting using the 'Hello World' sample app
 
-The [compose-postgresql-helloworld-nodejs](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs) sample app demonstrates how to use Node.js to connect to a {{site.data.keyword.composeForPostgreSQL}} service using the provided credentials. The application creates, reads from, and writes to a database
+The [sample app](https://github.com/IBM-Bluemix/compose-postgresql-helloworld-nodejs) demonstrates how to use Node.js to connect to a {{site.data.keyword.composeForPostgreSQL}} service by using the provided credentials. The application creates, reads from, and writes to a database.
 
 Download the sample app and follow the instructions in the readme file. Then, in your application details page in {{site.data.keyword.cloud_notm}}, click **View APP** to view the contents of the *examples* table.
 
@@ -25,7 +25,7 @@ Download the sample app and follow the instructions in the readme file. Then, in
 
 Field Name|Description
 ----------|-----------
-`uri`|The URI to be used when connecting to the service. Includes the schema (`postgres:`), admin user name and password, host name of server, port number to connect to, database name and "?ssl=true" to enable SSL connections.
+`uri`|The URI to be used when connecting to the service. The URI includes the schema (`postgres:`), admin user name and password, host name of server, port number to connect to, database name and "?ssl=true" to enable SSL connections.
 `uri_cli`|A `psql` shell command line that connects to the database instance.
 `ca_certificate_base64`|A self-signed certificate that is used to confirm that an application is connecting to the appropriate server. This is base64 encoded. You need to decode the key before using it, as shown in the sample application.
 `deployment_id`|An internal identifier for the service as created within Compose.

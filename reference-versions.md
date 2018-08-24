@@ -21,13 +21,12 @@ Deployable Versions | Preferred Version
 
 ## Preferred Version
 
-The preferred version is typically the newest version of the PostgreSQL database that is available for {{site.data.keyword.composeForPostgreSQL}}. It is the version that is the default in the drop-down version selector on the catalog page. It is also the version that is automatically provisioned by API if no version is specified in the call.
+The preferred version is typically the newest version of the PostgreSQL database that is available for {{site.data.keyword.composeForPostgreSQL}}. It is the default version in the drop-down selector on the catalog page. It is also the version that is automatically provisioned by API if no version is specified in the call.
 
 ### New Preferred Version Protocol
 
-When a new version is made available, its release will be announced and it will be available for deployment. Following release there is an approximately 7-day window where the newest version is available, but it is not the preferred version. This window allows you to deploy and test the new version, while still having the current version available. It also allows Compose engineers to spot and fix any issues that may arise in the new version. At the end of the 7-day window the new version is set as the preferred version, or a new date for this change is announced.
+When a new version is made available, its release is announced and it is available for deployment. Following release there is an approximately 7-day window where the newest version is available, but it is not the preferred version. This window allows you to deploy and test the new version, while still having the current version available. At the end of the 7-day window the new version is set as the preferred version, or a new date for this change is announced.
 
 The list of versions available to provision is on the {{site.data.keyword.composeForPostgreSQL}} [catalog page](https://console.{DomainName}/catalog/services/compose-for-postgresql).
 
-To get a current list of available versions for your {{site.data.keyword.composeForPostgreSQL}} service you can use the 
-[GET /2016-07/deployments/:id/versions](https://apidocs.compose.com/v1.0/reference#2016-07-get-deployments-versions) endpoint.
+To get a current list of available versions for your {{site.data.keyword.composeForPostgreSQL}} service, you can use the [GET /2016-07/deployments/:id/versions] (https://apidocs.compose.com/v1.0/reference#2016-07-get-deployments-versions) endpoint.
