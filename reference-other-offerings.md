@@ -22,8 +22,8 @@ More useful database-related information is in the [Compose Articles](https://ww
 
 ## {{site.data.keyword.composeEnterprise}}
 
-{{site.data.keyword.composeEnterprise}} provides a private, dedicated, and isolated cluster for customers. To use this plan, a {{site.data.keyword.composeEnterprise}} cluster must be provisioned through the {{site.data.keyword.composeEnterprise_full_notm}} service in the [IBM Cloud catalog](https://console.{DomainName}/catalog/).
+{{site.data.keyword.composeEnterprise}} provides a private, dedicated, and isolated cluster for customers. To use this plan, a {{site.data.keyword.composeEnterprise}} cluster must be provisioned through the {{site.data.keyword.composeEnterprise_full_notm}} service in the [IBM Cloud catalog](https://{DomainName}/catalog/).
 
 Once you have a {{site.data.keyword.composeEnterprise}} cluster, selecting the {{site.data.keyword.composeForPostgreSQL}} service with the Enterprise plan provisions the service onto your dedicated cluster. 
 
-For more information, see the [{{site.data.keyword.composeEnterprise}} catalog page](https://console.{DomainName}/catalog/services/compose-enterprise) and its [documentation](https://console.{DomainName}/docs/services/ComposeEnterprise/index.html#about-compose-enterprise).
+For more information, see the [{{site.data.keyword.composeEnterprise}} catalog page](https://{DomainName}/catalog/services/compose-enterprise) and its [documentation](https://{DomainName}/docs/services/ComposeEnterprise/index.html#about-compose-enterprise).
