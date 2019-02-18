@@ -11,8 +11,8 @@ lastupdated: "2018-06-12"
 {:pre: .pre}
 {:tip: .tip}
 
-# Connection Configuration
-{: #connection-configuration}
+# Connection Architecture
+{: #connection-architecture}
 
 {{site.data.keyword.composeForPostgreSQL_full}} database connections are managed by 2 HAProxy portals. Each portal has 64 MB of memory. Having two portals allows for applications to maintain connectivity if one of the portals becomes unreachable.
 

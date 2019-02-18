@@ -12,6 +12,7 @@ lastupdated: "2018-06-12"
 {:tip: .tip}
 
 # Architecture 
+{: #architecture}
 
 ## Replication
 

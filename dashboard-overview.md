@@ -12,6 +12,7 @@ lastupdated: "2018-05-07"
 {:pre: .pre}
 
 # Service Overview
+{: #dashboard-overview}
 
 The _Overview_ page shows you information about your {{site.data.keyword.cloud}} Compose database. The overview includes essential identifying information and current resource usage. You'll also find a section for connection strings that you can use to connect to your database.
 
@@ -23,7 +24,7 @@ The _Deployment Details_ panel shows details of your service.
 
 ### Type
 
-The type of database that is offered by the service, and the database version that your service uses. If a more recent database version is available, a notification is displayed, together with a link to the [Upgrade version](/docs/services/ComposeForPostgreSQL/dashboard-settings.html#upgrade-version) section of your service dashboard.
+The type of database that is offered by the service, and the database version that your service uses. If a more recent database version is available, a notification is displayed, together with a link to the [Upgrade version](/docs/services/ComposeForPostgreSQLtopic?=compose-for-postgresql-dashboard-settings#upgrade-version) section of your service dashboard.
 
 ### ID
 
@@ -43,11 +44,11 @@ You'll find each Connection String for your service in a different tab in the _C
 
 ### HTTPS
 
-A URI-formatted connection string that can be used by some client libraries and contains all the information that is needed for other libraries to connect. You can find out how to use the Connection String to connect in [Connecting an external application](./connecting-external.html).
+A URI-formatted connection string that can be used by some client libraries and contains all the information that is needed for other libraries to connect. You can find out how to use the Connection String to connect in [Connecting an external application](/docs/services/ComposeForPostgreSQLtopic?=compose-for-postgresql-external-app).
 
 ### Command Line
 
-The **Command Line** is a preformatted command that invokes `psql` with the correct parameters. To use it, you'll need to have the PostgreSQL client tools installed on the local system. You can find out more about how to do this in [Connecting an external application](./connecting-external.html).
+The **Command Line** is a preformatted command that invokes `psql` with the correct parameters. To use it, you'll need to have the PostgreSQL client tools installed on the local system. You can find out more about how to do this in [Connecting an external application](/docs/services/ComposeForPostgreSQLtopic?=compose-for-postgresql-external-app).
 
 ### SSL Certificate
 

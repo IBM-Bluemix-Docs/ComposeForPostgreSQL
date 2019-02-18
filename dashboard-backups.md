@@ -12,7 +12,7 @@ lastupdated: "2018-03-02"
 {:pre: .pre}
 
 # Backups
-{: #backups}
+{: #dashboard-backups}
 
 You can create and download backups from the _Backups_ tab of the _Manage_ page of your service dashboard. Daily, weekly, monthly, and on-demand backups are available. They are retained according to the following schedule:
 

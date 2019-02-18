@@ -13,6 +13,7 @@ lastupdated: "2017-10-23"
 {:tip: .tip}
 
 # Settings
+{: #dashboard-settings}
 
 Use these features to adapt your {{site.data.keyword.composeForPostgreSQL_full}} service to better suit your needs and requirements.
 
@@ -60,7 +61,7 @@ Changing the password changes the credentials that you and your services use to 
 
 Changing the password invalidates the existing connection string and generate a new one. This will cause a service interruption until any connected applications are updated with the new connection string.
 
-For more information about connecting your applications, see [Connecting an {{site.data.keyword.cloud}} Application](./connecting-bluemix-app.html) and [Connecting an external application](./connecting-external.html).
+For more information about connecting your applications, see [Connecting an {{site.data.keyword.cloud}} Application](/docs/services/ComposeForPostgreSQLtopic?=compose-for-postgresql-ibmcloud-cf-app) and [Connecting an external application](/docs/services/ComposeForPostgreSQLtopic?=compose-for-postgresql-external-app).
 
 
 ## Whitelists
