@@ -16,7 +16,9 @@ lastupdated: "2018-06-12"
 
 Deployable Versions | Preferred Version
 ----------|-----------
-9.4.19, 9.5.14, 9.6.10 | 9.4.19, 9.5.14, 9.6.10
+9.4.20, 9.4.21 | 9.4.20
+9.5.15, 9.5.16 | 9.5.15
+9.6.11, 9.6.12 | 9.6.11
 {: caption="Table 1. {{site.data.keyword.composeForPostgreSQL}} versions" caption-side="top"}
 
 ## Preferred Version
