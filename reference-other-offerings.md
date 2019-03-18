@@ -2,6 +2,9 @@
 copyright:
   years: 2016,2018
 lastupdated: "2018-06-11"
+
+subcollection: compose-for-postgresql
+
 ---
 
 {:new_window: target="_blank"}
