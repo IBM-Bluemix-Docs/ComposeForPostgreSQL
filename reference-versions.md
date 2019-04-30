@@ -19,9 +19,9 @@ subcollection: compose-for-postgresql
 
 Deployable Versions | Preferred Version
 ----------|-----------
-9.4.20, 9.4.21 | 9.4.20
-9.5.15, 9.5.16 | 9.5.15
-9.6.11, 9.6.12 | 9.6.11
+9.4.20, 9.4.21 | 9.4.21
+9.5.15, 9.5.16 | 9.5.16
+9.6.11, 9.6.12 | 9.6.12
 {: caption="Table 1. {{site.data.keyword.composeForPostgreSQL}} versions" caption-side="top"}
 
 ## Preferred Version

@@ -41,7 +41,7 @@ Node|`node-postgres`|[Link](https://github.com/brianc/node-postgres/wiki/Example
 
 ## Connecting with the command line
 
-To connect to Postgres from the command line, use `psql`. To use `psql` you need to install the PostgreSQL client tools on the local system. To get the tools, download the full PostgreSQL package from [postgresql.org](https://postgresql.org), from your operating system's packages, or by running `brew install postgresql` if you are using MacOS X and have installed Homebrew.   
+To connect to Postgres from the command line, use `psql`. To use `psql` you need to install the PostgreSQL client tools on the local system. They can be installed with the full PostgreSQL package that is provided from [postgresql.org](https://www.postgresql.org/download/), or as a [package from your operating system's package manager](https://www.compose.com/articles/postgresql-tips-installing-the-postgresql-client/). 
 
 You can read more about `psql` in the PostgreSQL documentation - [reference](https://www.postgresql.org/docs/current/static/app-psql.html) - and a simple [introduction](http://postgresguide.com/utilities/psql.html) in Postgres Guide.
 
