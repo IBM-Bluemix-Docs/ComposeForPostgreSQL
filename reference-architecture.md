@@ -29,7 +29,7 @@ Because {{site.data.keyword.composeForPostgreSQL}} is a managed service, it's po
 
 ## Auto-scaling
 
-Resources are scaled automatically based on the total disk storage use of the PostgreSQL databases. Memory is based on a ratio of provisioned disk space at 1:4. These resources are bundled as units.
+Resources are scaled automatically based on the total disk storage use of the PostgreSQL databases. Memory is based on a ratio of provisioned disk space at 1:10. These resources are bundled as units.
 
 Auto-scaling is designed to respond to the short-to-medium term trends of your database. Every hour, your service is checked and if it is running short on disk space, then more units are allocated to the deployment. 
 
