@@ -34,12 +34,12 @@ Postgres has a vast array of language drivers. The table covers a few of the mos
 Language|Driver|Examples
 ----------|-----------
 PHP|`pgsql`|[Link](http://php.net/manual/en/pgsql.examples-basic.php)
-Ruby|`ruby-pg`|[Link](https://bitbucket.org/ged/ruby-pg/wiki/Home)
+Ruby|`ruby-pg`|[Link](https://github.com/ged/ruby-pg)
 Ruby on Rails|Rails|[Rails Guide](http://edgeguides.rubyonrails.org/configuring.html#configuring-a-postgresql-database)
 Python|`Psycopg2`|[Link](https://wiki.postgresql.org/wiki/Psycopg2_Tutorial)
 C#|`ODBC`|[Link](https://wiki.postgresql.org/wiki/Using_Microsoft_.NET_with_the_PostgreSQL_Database_Server_via_ODBC)
 Go|`pq`|[Link](https://godoc.org/github.com/lib/pq)
-Node|`node-postgres`|[Link](https://github.com/brianc/node-postgres/wiki/Example)
+Node|`node-postgres`|[Link](https://node-postgres.com/)
 
 ## Connecting with the command line
 
