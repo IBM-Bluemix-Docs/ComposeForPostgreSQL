@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="compose-for-postgresql" audience="service" category="databases" arm="3663071" href="/docs/services/ComposeForPostgreSQL/index.html" path="services/ComposeForPostgreSQL"}
+{: .toc subcollection="compose-for-postgresql" audience="service" category="databases" href="/docs/ComposeForPostgreSQL?topic=compose-for-postgresql-about" path="ComposeForPostgreSQL"}
 Compose For PostgreSQL
 
 	{: .navgroup id="learn"}
