@@ -66,7 +66,7 @@ Changing the password changes the credentials that you and your services use to 
 
 Changing the password invalidates the existing connection string and generate a new one. This will cause a service interruption until any connected applications are updated with the new connection string.
 
-For more information about connecting your applications, see [Connecting an {{site.data.keyword.cloud}} Application](/docs/services/ComposeForPostgreSQLtopic?=compose-for-postgresql-ibmcloud-cf-app) and [Connecting an external application](/docs/services/ComposeForPostgreSQLtopic?=compose-for-postgresql-external-app).
+For more information about connecting your applications, see [Connecting an {{site.data.keyword.cloud}} Application](/docs/ComposeForPostgreSQLtopic?=compose-for-postgresql-ibmcloud-cf-app) and [Connecting an external application](/docs/ComposeForPostgreSQLtopic?=compose-for-postgresql-external-app).
 
 
 ## Whitelists

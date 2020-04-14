@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2016,2018
-lastupdated: "2018-06-11"
+  years: 2016,2020
+lastupdated: "2020-04-13"
 
 keywords: postgresql, compose
 
@@ -15,9 +15,13 @@ subcollection: compose-for-postgresql
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:important: .important}
 
 # Other Offerings
 {: #other-offerings}
+
+{{site.data.keyword.composeForPostgreSQL_full}} is no longer the latest service offering. The next generation is [{{site.data.keyword.databases-for-postgresql_full}}](/docs/databases-for-postgresql?topic=databases-for-postgresql-getting-started).
+{: .important}
 
 {{site.data.keyword.composeForPostgreSQL_full}} has been developed from the Compose platform for production-ready, autoscaling, highly available databases. Compose continues to operate as part of IBM from [https://www.compose.com/](https://www.compose.com). In addition to the documentation available on {{site.data.keyword.cloud_notm}}, Compose documentation is available at [https://help.compose.com/](https://help.compose.com/).
 
@@ -31,4 +35,4 @@ More useful database-related information is in the [Compose Articles](https://ww
 
 Once you have a {{site.data.keyword.composeEnterprise}} cluster, selecting the {{site.data.keyword.composeForPostgreSQL}} service with the Enterprise plan provisions the service onto your dedicated cluster. 
 
-For more information, see the [{{site.data.keyword.composeEnterprise}} catalog page](https://{DomainName}/catalog/services/compose-enterprise) and its [documentation](https://{DomainName}/docs/services/ComposeEnterprise/index.html#about-compose-enterprise).
+For more information, see the [{{site.data.keyword.composeEnterprise}} catalog page](https://{DomainName}/catalog/compose-enterprise) and its [documentation](https://{DomainName}/docs/ComposeEnterprise/index.html#about-compose-enterprise).
