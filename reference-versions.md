@@ -19,13 +19,6 @@ subcollection: compose-for-postgresql
 # Versions
 {: #versions}
 
-Deployable Versions | Preferred Version
-----------|-----------
-9.4.20, 9.4.21 | 9.4.21
-9.5.15, 9.5.16 | 9.5.16
-9.6.11, 9.6.12 | 9.6.12
-{: caption="Table 1. {{site.data.keyword.composeForPostgreSQL}} versions" caption-side="top"}
-
 ## Preferred Version
 
 The preferred version is typically the newest version of the PostgreSQL database that is available for {{site.data.keyword.composeForPostgreSQL}}. It is the default version in the drop-down selector on the catalog page. It is also the version that is automatically provisioned by API if no version is specified in the call.
