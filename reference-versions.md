@@ -29,4 +29,4 @@ When a new version is made available, its release is announced and it is availab
 
 The list of versions available to provision is on the {{site.data.keyword.composeForPostgreSQL}} [catalog page](https://{DomainName}/catalog/compose-for-postgresql).
 
-To get a current list of available versions for your {{site.data.keyword.composeForPostgreSQL}} service, you can use the [GET /2016-07/deployments/:id/versions] (https://apidocs.compose.com/v1.0/reference#2016-07-get-deployments-versions) endpoint.
+To get a current list of available versions for your {{site.data.keyword.composeForPostgreSQL}} service, you can use the [GET /2016-07/deployments/:id/versions](https://apidocs.compose.com/v1.0/reference#2016-07-get-deployments-versions) endpoint.
