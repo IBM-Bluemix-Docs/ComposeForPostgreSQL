@@ -4,7 +4,7 @@ copyright:
   years: 2016,2020
 lastupdated: "2020-04-13"
 
-subcollection: compose-for-postgresql
+subcollection: ComposeForPostgreSQL
 
 ---
 

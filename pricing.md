@@ -6,7 +6,7 @@ lastupdated: "2018-01-03"
 
 keywords: postgresql, compose
 
-subcollection: compose-for-postgresql
+subcollection: ComposeForPostgreSQL
 
 ---
 
